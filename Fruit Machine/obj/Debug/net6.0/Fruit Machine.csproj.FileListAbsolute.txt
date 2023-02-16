@@ -1,0 +1,15 @@
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\bin\Debug\net6.0\Fruit Machine.exe
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\bin\Debug\net6.0\Fruit Machine.deps.json
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\bin\Debug\net6.0\Fruit Machine.runtimeconfig.json
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\bin\Debug\net6.0\Fruit Machine.dll
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\bin\Debug\net6.0\Fruit Machine.pdb
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.csproj.AssemblyReference.cache
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.AssemblyInfoInputs.cache
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.AssemblyInfo.cs
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.csproj.CoreCompileInputs.cache
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.dll
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\refint\Fruit Machine.dll
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.pdb
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\Fruit Machine.genruntimeconfig.cache
+C:\Users\craig\source\repos\CodeMaster420ImInsane\School-work\Homework\Fruit Machine\obj\Debug\net6.0\ref\Fruit Machine.dll
