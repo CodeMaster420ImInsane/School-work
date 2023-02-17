@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\craig\\source\\repos\\CodeMaster420ImInsane\\School-work\\Homework\\Fruit Machine\\Fruit Machine.csproj": {}
+    "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\School-work\\Fruit Machine\\Fruit Machine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\craig\\source\\repos\\CodeMaster420ImInsane\\School-work\\Homework\\Fruit Machine\\Fruit Machine.csproj": {
+    "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\School-work\\Fruit Machine\\Fruit Machine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\craig\\source\\repos\\CodeMaster420ImInsane\\School-work\\Homework\\Fruit Machine\\Fruit Machine.csproj",
+        "projectUniqueName": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\School-work\\Fruit Machine\\Fruit Machine.csproj",
         "projectName": "Fruit Machine",
-        "projectPath": "C:\\Users\\craig\\source\\repos\\CodeMaster420ImInsane\\School-work\\Homework\\Fruit Machine\\Fruit Machine.csproj",
+        "projectPath": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\School-work\\Fruit Machine\\Fruit Machine.csproj",
         "packagesPath": "C:\\Users\\craig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\craig\\source\\repos\\CodeMaster420ImInsane\\School-work\\Homework\\Fruit Machine\\obj\\",
+        "outputPath": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\School-work\\Fruit Machine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
