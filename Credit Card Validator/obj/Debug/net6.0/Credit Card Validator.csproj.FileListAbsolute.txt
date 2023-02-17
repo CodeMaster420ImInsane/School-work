@@ -1,0 +1,15 @@
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\bin\Debug\net6.0\Credit Card Validator.exe
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\bin\Debug\net6.0\Credit Card Validator.deps.json
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\bin\Debug\net6.0\Credit Card Validator.runtimeconfig.json
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\bin\Debug\net6.0\Credit Card Validator.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\bin\Debug\net6.0\Credit Card Validator.pdb
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.csproj.AssemblyReference.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.AssemblyInfoInputs.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.AssemblyInfo.cs
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.csproj.CoreCompileInputs.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\refint\Credit Card Validator.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.pdb
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\Credit Card Validator.genruntimeconfig.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Credit Card Validator\obj\Debug\net6.0\ref\Credit Card Validator.dll
