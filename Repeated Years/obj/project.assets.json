@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\RepeatedYears\\RepeatedYears.csproj",
+      "projectUniqueName": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Repeated Years\\RepeatedYears.csproj",
       "projectName": "RepeatedYears",
-      "projectPath": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\RepeatedYears\\RepeatedYears.csproj",
+      "projectPath": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Repeated Years\\RepeatedYears.csproj",
       "packagesPath": "C:\\Users\\craig\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\RepeatedYears\\obj\\",
+      "outputPath": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Repeated Years\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
