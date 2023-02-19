@@ -1,15 +1,15 @@
 ﻿using System;
 namespace Program
 {
-    class Program
+    class Baller
     {
-        private int naturalNumber;
+        private int num;
         private string symbol;
         private int[,] array { get; } //int[,] means 2D array
-        public Program(int num, string symbol)
+        public Baller(int num, string symbol)
         {
-            this.naturalNumber = num;
-            this.array = new int[num + 1, num + 1]; 
+            this.num = num;
+            this.array = new int[num + 1, num + 1];
             this.symbol = symbol;
         }
         public string OutputTable()
@@ -20,7 +20,7 @@ namespace Program
             foreach (int i in this.array)
             {
 
-                if (count <= naturalNumber)
+                if (count <= num)
                 {
                     table += i.ToString() + " ";
 
@@ -40,9 +40,9 @@ namespace Program
         }
         public void GenerateTable()
         {
-            for (int x = 0; x <= naturalNumber; x++)
+            for (int x = 0; x <= num; x++)
             {
-                for (int y = 0; y <= naturalNumber; y++)
+                for (int y = 0; y <= num; y++)
                 {
                     switch (symbol)
                     {
@@ -81,5 +81,5 @@ namespace Program
             Console.WriteLine(blahGen.OutputTable());
         }
     }
-   
+
 }
