@@ -1,48 +1,48 @@
 ﻿using System;
 namespace Program
 {
-    class Baller
+    class NumberTable
     {
-        private int num;
+        private int naturalNumber;
         private string symbol;
-        private int[,] array { get; } //int[,] means 2D array
-        public Baller(int num, string symbol)
+        private int[,] array { get; }
+        public NumberTable(int naturalNumber, string symbol)
         {
-            this.num = num;
-            this.array = new int[num + 1, num + 1];
+            this.naturalNumber = naturalNumber;
+            this.array = new int[naturalNumber + 1, naturalNumber + 1];
             this.symbol = symbol;
         }
         public string OutputTable()
         {
-            string table = "";
-            int count = 0;
+            string output = "";
+            int counter = 0;
             int row = 0;
             foreach (int i in this.array)
             {
 
-                if (count <= num)
+                if (counter <= naturalNumber)
                 {
-                    table += i.ToString() + " ";
+                    output += i.ToString() + " ";
 
                 }
                 else
                 {
                     row++;
-                    table += "\n";
-                    table += i.ToString() + " ";
-                    count = 0;
+                    output += "\n";
+                    output += i.ToString() + " ";
+                    counter = 0;
                 }
-                count++;
+                counter++;
 
 
             }
-            return table;
+            return output;
         }
         public void GenerateTable()
         {
-            for (int x = 0; x <= num; x++)
+            for (int x = 0; x <= naturalNumber; x++)
             {
-                for (int y = 0; y <= num; y++)
+                for (int y = 0; y <= naturalNumber; y++)
                 {
                     switch (symbol)
                     {
@@ -56,7 +56,7 @@ namespace Program
                             this.array[x, y] = x * y;
                             break;
                         case "/":
-                            if (y == 0)
+                            if (x == 0 || y == 0)
                             {
                                 this.array[x, y] = 0;
                             }
@@ -76,10 +76,10 @@ namespace Program
             String symbol = Console.ReadLine();
             Console.WriteLine("Choose natural number");
             int num = int.Parse(Console.ReadLine());
-            Program blahGen = new Program(num, symbol);
+            NumberTable blahGen = new NumberTable(num, symbol);
             blahGen.GenerateTable();
             Console.WriteLine(blahGen.OutputTable());
         }
     }
-
+   
 }
