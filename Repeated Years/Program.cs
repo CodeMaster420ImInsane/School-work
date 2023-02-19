@@ -6,7 +6,6 @@ class Program
         var h = new HashSet<int>();
         Console.WriteLine("Choose a year");
         String answer = Console.ReadLine();
-        List<int> list = new List<int>();
         for (int i = 0; i <= int.Parse(answer); i++)
         {
             Char[] jb = i.ToString().ToCharArray();
