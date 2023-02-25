@@ -1,42 +1,42 @@
 ﻿using System;
 namespace Program
 {
-    class NumberTable
+    class Program
     {
         private int naturalNumber;
         private string symbol;
-        private int[,] array { get; }
-        public NumberTable(int naturalNumber, string symbol)
+        private int[,] array { get; } //int[,] means 2D array
+        public Program(int num, string symbol)
         {
-            this.naturalNumber = naturalNumber;
-            this.array = new int[naturalNumber + 1, naturalNumber + 1];
+            this.naturalNumber = num;
+            this.array = new int[num + 1, num + 1]; 
             this.symbol = symbol;
         }
         public string OutputTable()
         {
-            string output = "";
-            int counter = 0;
+            string table = "";
+            int count = 0;
             int row = 0;
             foreach (int i in this.array)
             {
 
-                if (counter <= naturalNumber)
+                if (count <= naturalNumber)
                 {
-                    output += i.ToString() + " ";
+                    table += i.ToString() + " ";
 
                 }
                 else
                 {
                     row++;
-                    output += "\n";
-                    output += i.ToString() + " ";
-                    counter = 0;
+                    table += "\n";
+                    table += i.ToString() + " ";
+                    count = 0;
                 }
-                counter++;
+                count++;
 
 
             }
-            return output;
+            return table;
         }
         public void GenerateTable()
         {
@@ -56,7 +56,7 @@ namespace Program
                             this.array[x, y] = x * y;
                             break;
                         case "/":
-                            if (x == 0 || y == 0)
+                            if (y == 0)
                             {
                                 this.array[x, y] = 0;
                             }
@@ -76,7 +76,7 @@ namespace Program
             String symbol = Console.ReadLine();
             Console.WriteLine("Choose natural number");
             int num = int.Parse(Console.ReadLine());
-            NumberTable blahGen = new NumberTable(num, symbol);
+            Program blahGen = new Program(num, symbol);
             blahGen.GenerateTable();
             Console.WriteLine(blahGen.OutputTable());
         }
