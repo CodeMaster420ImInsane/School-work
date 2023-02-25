@@ -1,0 +1,15 @@
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\bin\Debug\net6.0\Morse Code.exe
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\bin\Debug\net6.0\Morse Code.deps.json
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\bin\Debug\net6.0\Morse Code.runtimeconfig.json
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\bin\Debug\net6.0\Morse Code.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\bin\Debug\net6.0\Morse Code.pdb
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.csproj.AssemblyReference.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.AssemblyInfoInputs.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.AssemblyInfo.cs
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.csproj.CoreCompileInputs.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\refint\Morse Code.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.pdb
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\Morse Code.genruntimeconfig.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Morse Code\Morse Code\obj\Debug\net6.0\ref\Morse Code.dll

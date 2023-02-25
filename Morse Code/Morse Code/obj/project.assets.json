@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\craig\\Documents\\Baller\\Morse Code\\Morse Code.csproj",
+      "projectUniqueName": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Morse Code\\Morse Code\\Morse Code.csproj",
       "projectName": "Morse Code",
-      "projectPath": "C:\\Users\\craig\\Documents\\Baller\\Morse Code\\Morse Code.csproj",
+      "projectPath": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Morse Code\\Morse Code\\Morse Code.csproj",
       "packagesPath": "C:\\Users\\craig\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\craig\\Documents\\Baller\\Morse Code\\obj\\",
+      "outputPath": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Morse Code\\Morse Code\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
