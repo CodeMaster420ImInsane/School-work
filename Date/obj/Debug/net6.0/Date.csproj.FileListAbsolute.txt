@@ -1,0 +1,15 @@
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\bin\Debug\net6.0\Date.exe
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\bin\Debug\net6.0\Date.deps.json
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\bin\Debug\net6.0\Date.runtimeconfig.json
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\bin\Debug\net6.0\Date.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\bin\Debug\net6.0\Date.pdb
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.csproj.AssemblyReference.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.AssemblyInfoInputs.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.AssemblyInfo.cs
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.csproj.CoreCompileInputs.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\refint\Date.dll
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.pdb
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\Date.genruntimeconfig.cache
+C:\Users\craig\Documents\Baller\REAL LOCATION\Homework\School-work YES\Date\obj\Debug\net6.0\ref\Date.dll
