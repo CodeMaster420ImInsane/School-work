@@ -102,3 +102,16 @@ namespace ConsoleApp
         }
     }
 }
+// alternatively I could've written:
+
+// Console.WriteLine("Enter a date in the format {20/3/1998}");
+// string[] array = new Console.ReadLine().Split('/');
+// DateTime object = new DateTime(array[2], array[1], array[0]);
+// try
+//{
+// Console.WriteLine(object.ToString("dddd"));
+//}
+//catch
+//{
+//Console.WriteLine("Please enter a valid date");
+//}

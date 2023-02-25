@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\Unit Converter\\Unit Converter.csproj",
+      "projectUniqueName": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Unit Converter\\Unit Converter.csproj",
       "projectName": "Unit Converter",
-      "projectPath": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\Unit Converter\\Unit Converter.csproj",
+      "projectPath": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Unit Converter\\Unit Converter.csproj",
       "packagesPath": "C:\\Users\\craig\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\craig\\Documents\\Baller\\Unit Converter\\Homework\\Unit Converter\\obj\\",
+      "outputPath": "C:\\Users\\craig\\Documents\\Baller\\REAL LOCATION\\Homework\\School-work YES\\Unit Converter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
