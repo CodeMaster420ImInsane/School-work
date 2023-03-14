@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateStarsDraw", "GenerateStarsDraw.csproj", "{92EFE4F2-C000-4928-BE4F-BD091F29E74C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92EFE4F2-C000-4928-BE4F-BD091F29E74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EFE4F2-C000-4928-BE4F-BD091F29E74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EFE4F2-C000-4928-BE4F-BD091F29E74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EFE4F2-C000-4928-BE4F-BD091F29E74C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4654BC6B-5732-4C74-BD59-EE8390CC51EA}
+	EndGlobalSection
+EndGlobal
