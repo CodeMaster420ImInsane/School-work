@@ -2,12 +2,14 @@ using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Media;
+using System.Diagnostics;
 
 namespace GenerateStarsDraw
 {
     public partial class Form1 : Form
     {
-        SoundPlayer barIncrease = new SoundPlayer(@"C:/Users/nzcjp/downloads/Shepard-tone1.wav");
+        SoundPlayer barIncrease = new SoundPlayer(@"C:/Users/nzcjp/downloads/Shepard-toneF.wav");
+        SoundPlayer stoopid = new SoundPlayer(@"C:/Users/nzcjp/downloads/ustoopid.wav");
         public Random rng = new Random();
         SolidBrush[] colourOptions = new SolidBrush[] { new SolidBrush(Color.White), new SolidBrush(Color.WhiteSmoke), new SolidBrush(Color.FloralWhite), new SolidBrush(Color.AliceBlue), new SolidBrush(Color.LightYellow)};
         public bool continueGeneratingCircles = true;
@@ -15,7 +17,7 @@ namespace GenerateStarsDraw
         public Form1()
         {
             InitializeComponent();
-            this.TopMost = true;
+            label1.Hide();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -32,18 +34,21 @@ namespace GenerateStarsDraw
         }
         private async void button1_Click(object sender, EventArgs e)
         {
-            progressBar1.Invoke(new Action(() =>
+            if (textBox1.Text != String.Empty)
             {
-                progressBar1.Show();
-            }));
-            continueGeneratingCircles = true;
-            Graphics generateStar = Graphics.FromHwnd(this.Handle);
-            Task soundTask = Task.Run(() =>
-            {
-                barIncrease.Play();
-            });
-            circleGenerationTask = Task.Run(() =>
+                progressBar1.Invoke(new Action(() =>
                 {
+                    progressBar1.Show();
+                }));
+                continueGeneratingCircles = true;
+                Graphics generateStar = Graphics.FromHwnd(this.Handle);
+                Task soundTask = Task.Run(() =>
+                {
+                    barIncrease.Play();
+                });
+                circleGenerationTask = Task.Run(() =>
+                {
+                
                     int i = 0;
                     while (i < int.Parse(textBox1.Text) && continueGeneratingCircles)
                     {
@@ -113,7 +118,7 @@ namespace GenerateStarsDraw
                             progressBar1.Value = i;
                         }));
                         Application.DoEvents();
-                        Thread.Sleep(10);
+                        Thread.Sleep(1);
                     }
                     // end of star generation
                     progressBar1.Invoke(new Action(() =>
@@ -123,9 +128,10 @@ namespace GenerateStarsDraw
                     barIncrease.Stop();
                 });
             await soundTask;
+        }  
         }
 
-        protected override void OnFormClosing(FormClosingEventArgs e)
+        protected override async void OnFormClosing(FormClosingEventArgs e)
         {
             barIncrease.Stop();
             continueGeneratingCircles = false;
@@ -138,21 +144,58 @@ namespace GenerateStarsDraw
                     e.Cancel = true;
                     break;
                 default:
+                    string videoUrl = "https://www.youtube.com/shorts/qqZosHdUUz0";
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = videoUrl,
+                        UseShellExecute = true
+                    });
                     int nsk = rng.Next(10, 20);
                     bool continueLoop = true;
-                    for (int i = 0; i < nsk && continueLoop; i++)
+                    int i = 0;
+                    while (i < nsk && continueLoop)
                     {
-                        switch (MessageBox.Show(this, "Are you sure?", $"Please don't close ({nsk - i})", MessageBoxButtons.YesNo))
+                        if (nsk - i == 1)
                         {
-                            case DialogResult.No:
-                                continueLoop = false;
-                                continueGeneratingCircles = true;
-                                e.Cancel = true;
-                                break;
-                            default:
-                                continueGeneratingCircles = false;
-                                break;
+                            switch (MessageBox.Show(this, "Are you *not* sure? ;)", "Never!", MessageBoxButtons.YesNo))
+                            {
+                                case DialogResult.Yes:
+                                    Task sound2 = Task.Run(() =>
+                                    {
+                                        stoopid.Play();
+                                    });
+                                    if (i == 0) 
+                                    {
+                                        continueGeneratingCircles = false;
+                                    }
+                                    else
+                                    {
+                                        continueGeneratingCircles = true;
+                                        e.Cancel = true;
+                                    }
+                                    break;
+                                default:
+                                    continueLoop = false;
+                                    continueGeneratingCircles = true;
+                                    e.Cancel = true;
+                                    break;
+                            }
                         }
+                        else
+                        {
+                            switch (MessageBox.Show(this, "Are you sure?", $"Please don't close ({nsk - i})", MessageBoxButtons.YesNo))
+                            {
+                                case DialogResult.No:
+                                    continueLoop = false;
+                                    continueGeneratingCircles = true;
+                                    e.Cancel = true;
+                                    break;
+                                default:
+                                    continueGeneratingCircles = false;
+                                    break;
+                            }
+                        }
+                        i++;
                     }
                     if (Task.CurrentId != null && !circleGenerationTask.IsCompleted)
                     {
