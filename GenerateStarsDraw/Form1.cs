@@ -18,6 +18,8 @@ namespace GenerateStarsDraw
         {
             InitializeComponent();
             label1.Hide();
+            this.TopMost = true;
+            progressBar1.Hide();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -36,6 +38,11 @@ namespace GenerateStarsDraw
         {
             if (textBox1.Text != String.Empty)
             {
+                 barIncrease.Stop();
+            progressBar1.Invoke(new Action(() =>
+            {
+                progressBar1.Value = 0;
+            }));
                 progressBar1.Invoke(new Action(() =>
                 {
                     progressBar1.Show();
@@ -177,7 +184,6 @@ namespace GenerateStarsDraw
                                 default:
                                     continueLoop = false;
                                     continueGeneratingCircles = true;
-                                    e.Cancel = true;
                                     break;
                             }
                         }
