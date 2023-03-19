@@ -223,13 +223,6 @@ namespace GenerateStarsDraw
                     Console.WriteLine("first hash:  " + md5.ComputeHash(stream));
                 }
             }
-            using (var md52 = MD5.Create())
-            {
-                using (var stream = File.OpenRead(@"C:\Users\craig\Downloads\ShepardF.wav"))
-                {
-                    Console.WriteLine("second hash:  " + md52.ComputeHash(stream));
-                }
-            }
         }
 
          private void button2_Click(object sender, EventArgs e)
