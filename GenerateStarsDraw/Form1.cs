@@ -3,13 +3,14 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Media;
 using System.Diagnostics;
+using System.Security.Cryptography;
 
 namespace GenerateStarsDraw
 {
     public partial class Form1 : Form
     {
-        SoundPlayer barIncrease = new SoundPlayer(@"C:/Users/nzcjp/downloads/Shepard-toneF.wav");
-        SoundPlayer stoopid = new SoundPlayer(@"C:/Users/nzcjp/downloads/ustoopid.wav");
+        SoundPlayer barIncrease = new SoundPlayer("ShepardF.wav");
+        SoundPlayer stoopid = new SoundPlayer("ustoopid.wav");
         public Random rng = new Random();
         SolidBrush[] colourOptions = new SolidBrush[] { new SolidBrush(Color.White), new SolidBrush(Color.WhiteSmoke), new SolidBrush(Color.FloralWhite), new SolidBrush(Color.AliceBlue), new SolidBrush(Color.LightYellow)};
         public bool continueGeneratingCircles = true;
@@ -215,6 +216,20 @@ namespace GenerateStarsDraw
             this.BackColor = Color.Black;
             button1.Text = "Generate stars";
             button2.Text = "Clear stars";
+            using (var md5 = MD5.Create())
+            {
+                using (var stream = File.OpenRead("ShepardF.wav"))
+                {
+                    Console.WriteLine("first hash:  " + md5.ComputeHash(stream));
+                }
+            }
+            using (var md52 = MD5.Create())
+            {
+                using (var stream = File.OpenRead(@"C:\Users\craig\Downloads\ShepardF.wav"))
+                {
+                    Console.WriteLine("second hash:  " + md52.ComputeHash(stream));
+                }
+            }
         }
 
          private void button2_Click(object sender, EventArgs e)
