@@ -60,7 +60,7 @@ namespace GenerateStarsDraw
                     int i = 0;
                     while (i < int.Parse(textBox1.Text) && continueGeneratingCircles)
                     {
-                        int size = rng.Next(1, 9);
+                        int size = rng.Next(1, 7);
                         Point p = new Point();
                         p.X = rng.Next(0, this.Width);
                         p.Y = rng.Next(0, this.Height);
@@ -216,13 +216,6 @@ namespace GenerateStarsDraw
             this.BackColor = Color.Black;
             button1.Text = "Generate stars";
             button2.Text = "Clear stars";
-            using (var md5 = MD5.Create())
-            {
-                using (var stream = File.OpenRead("ShepardF.wav"))
-                {
-                    Console.WriteLine("first hash:  " + md5.ComputeHash(stream));
-                }
-            }
         }
 
          private void button2_Click(object sender, EventArgs e)
